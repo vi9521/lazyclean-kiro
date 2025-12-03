@@ -61,7 +61,24 @@ cd lazyclean-kiro
 npm install
 
 ## ▶️ Usage
-## 🔍 Dry Run (Preview)
+
+### 🔍 Dry Run (Preview)
+```bash
 node src/lazyclean.js --path <folder> --dry-run
+Real Cleanup
+node src/lazyclean.js --path <folder>
+
+🔁 Undo Last Cleanup
+node src/lazyclean.js --path <folder> --undo
+
+🔁 Undo Multiple Steps
+node src/lazyclean.js --path <folder> --undo --undo-steps 5
+
+📊 Report
+node src/lazyclean.js --path <folder> --report
+
+🌲 Recursive Mode
+node src/lazyclean.js --path <folder> --recursive
+
 
 
