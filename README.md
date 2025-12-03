@@ -1,4 +1,4 @@
-🧹 LazyClean — Smart Folder Cleaner (Kiro Week 2 Ready)
+# 🧹 LazyClean — Smart Folder Cleaner (Kiro Week 2 Ready)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-ESM%20Project-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
@@ -54,31 +54,106 @@ Skip files/folders using `.klignore`.
 ---
 
 ## 📦 Installation
-
 ```bash
 git clone https://github.com/vi9521/lazyclean-kiro.git
 cd lazyclean-kiro
 npm install
+```
+
+---
 
 ## ▶️ Usage
 
 ### 🔍 Dry Run (Preview)
 ```bash
 node src/lazyclean.js --path <folder> --dry-run
-Real Cleanup
+```
+
+### 🧹 Real Cleanup
+```bash
 node src/lazyclean.js --path <folder>
+```
 
-🔁 Undo Last Cleanup
+### 🔁 Undo Last Cleanup
+```bash
 node src/lazyclean.js --path <folder> --undo
+```
 
-🔁 Undo Multiple Steps
+### 🔁 Undo Multiple Steps
+```bash
 node src/lazyclean.js --path <folder> --undo --undo-steps 5
+```
 
-📊 Report
+### 📊 Report
+```bash
 node src/lazyclean.js --path <folder> --report
+```
 
-🌲 Recursive Mode
+### 🌲 Recursive Mode
+```bash
 node src/lazyclean.js --path <folder> --recursive
+```
 
+---
 
+## 🚫 Ignore Rules
 
+Create a `.klignore` file:
+```
+node_modules/
+secret.txt
+temp/
+```
+
+---
+
+## 📂 Project Structure
+```
+lazyclean-kiro/
+├── .kiro/
+│   ├── config.json
+│   └── README-kiro.md
+├── src/
+│   ├── lazyclean.js
+│   ├── utils.js
+│   └── src_sample/
+├── demo_report/
+├── demo_target/
+├── README.md
+├── .gitignore
+├── package.json
+└── package-lock.json
+```
+
+---
+
+## 🧠 Duplicate Detection — How It Works
+
+LazyClean:
+- Computes SHA-1 hash for each file
+- Duplicate files share the same hash
+- Duplicates are moved to `/Duplicates`
+- Action is logged for undo
+
+---
+
+## 🔁 Undo System
+
+LazyClean logs all operations in:
+```
+lazyclean-log.json
+```
+
+Undo safely restores files to their original location.
+
+---
+
+## 📜 License
+
+MIT License — free to use and modify.
+
+---
+
+## 👨‍💻 Author
+
+Created by [vi9521](https://github.com/vi9521) for Kiro Week 2 Project.
