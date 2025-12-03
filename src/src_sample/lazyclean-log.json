@@ -1,0 +1,28 @@
+{
+  "runs": [
+    {
+      "action": "move",
+      "from": "image-1.png",
+      "to": "Images\\image-1.png",
+      "ts": "2025-12-03T13:56:01.085Z"
+    },
+    {
+      "action": "move",
+      "from": "note-1.txt",
+      "to": "Documents\\note-1.txt",
+      "ts": "2025-12-03T13:56:01.087Z"
+    },
+    {
+      "action": "move",
+      "from": "note-2.txt",
+      "to": "Documents\\note-2.txt",
+      "ts": "2025-12-03T13:56:01.088Z"
+    },
+    {
+      "action": "move",
+      "from": "readme",
+      "to": "Others\\readme",
+      "ts": "2025-12-03T13:56:01.089Z"
+    }
+  ]
+}

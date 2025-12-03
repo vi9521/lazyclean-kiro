@@ -1,0 +1,9 @@
+{
+  "name": "lazyclean",
+  "version": "1.0.0",
+  "description": "A smart folder-cleaning CLI tool with categories, duplicate detection, dry-run, undo, recursive scan, and ignore rules.",
+  "author": "Digvijay Gade",
+  "challenge": "Kiro Week 2",
+  "tags": ["cli", "nodejs", "automation", "productivity"],
+  "entry": "src/lazyclean.js"
+}
