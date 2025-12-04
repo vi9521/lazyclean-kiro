@@ -7,9 +7,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
-**📝 Read the full story:** [How LazyClean Was Built with Kiro AI on AWS Builder Center](https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days)
-
-**👤 Author Profile:** [Digvijay Gade on AWS Builder Center](https://builder.aws.com/profiles/digvijaygade)
+**📝 Read the full story:** [LazyClean Development Blog on AWS Builder Center](https://builder.aws.com/profiles/digvijaygade)
 
 > Built for **Kiro Week 2 Challenge: Lazy Automation** | ⏱️ Developed in 3 days with Kiro AI assistance
 
@@ -26,11 +24,30 @@ LazyClean was significantly enhanced with **Kiro AI assistance**. Kiro helped im
 
 **Time Saved:** Features that would have taken 12-15 hours were implemented in just 3-4 hours with Kiro's guidance!
 
-📖 **Read the complete development journey:** [LazyClean Blog Post](https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days)
+📖 **Read the complete development journey:** [View my articles on AWS Builder Center](https://builder.aws.com/profiles/digvijaygade)
 
 ---
 
+## 🚀 What is LazyClean?
+```
 
+---
+
+## 📋 FOR YOUR DASHBOARD SUBMISSION:
+
+Submit **BOTH** links (judges might have better access than public):
+
+### Option 1: Use Profile Link (Safer)
+```
+GitHub: https://github.com/vi9521/lazyclean-kiro
+Blog: https://builder.aws.com/profiles/digvijaygade
+```
+
+### Option 2: Use Both Links
+```
+GitHub: https://github.com/vi9521/lazyclean-kiro
+Blog (Profile): https://builder.aws.com/profiles/digvijaygade
+Blog (Direct - if accessible): https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days
 ## 🚀 What is LazyClean?
 
 LazyClean is a fast, production-ready Node.js CLI tool that automatically organizes messy folders.
