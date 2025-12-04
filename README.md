@@ -138,15 +138,15 @@ LazyClean will automatically skip these files and folders during organization.
 ```
 lazyclean-kiro/
 ├── .kiro/
-│   ├── config.json          # Kiro configuration
-│   └── README-kiro.md        # Kiro integration docs
+│   ├── config.json         
+│   └── README-kiro.md       
 ├── src/
-│   ├── lazyclean.js          # Main CLI application
-│   ├── utils.js              # Helper functions
-│   └── src_sample/           # Sample test files
-├── demo_report/              # Example reports
-├── demo_target/              # Example organized folders
-├── README.md                 # This file
+│   ├── lazyclean.js         
+│   ├── utils.js             
+│   └── src_sample/            
+├── demo_report/              
+├── demo_target/             
+├── README.md                 
 ├── .gitignore
 ├── package.json
 └── package-lock.json
