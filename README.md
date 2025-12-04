@@ -1,4 +1,4 @@
-﻿🧹 LazyClean — Smart Folder Cleaner (Kiro Week 2 Ready)
+# 🧹 LazyClean — Smart Folder Cleaner (Kiro Week 2 Ready)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-ESM%20Project-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
@@ -11,7 +11,7 @@
 
 LazyClean is a fast, production-ready Node.js CLI tool that automatically organizes messy folders.
 
-It sorts files into categories:
+It sorts files into:
 
 - 🖼 Images  
 - 🎥 Videos  
@@ -21,7 +21,7 @@ It sorts files into categories:
 - 💻 Code  
 - 📦 Others  
 
-LazyClean also detects duplicate files using SHA-1, supports undo, dry-run mode, recursive scanning, and provides a beautiful CLI experience.
+LazyClean also detects duplicate files using SHA-1 hashing, supports undo, dry-run, recursive scanning, and provides a beautiful CLI interface.
 
 ---
 
@@ -31,116 +31,129 @@ LazyClean also detects duplicate files using SHA-1, supports undo, dry-run mode,
 Sorts files into category-based folders.
 
 ### 🧬 Duplicate Detection  
-Uses SHA-1 hashing → duplicates moved to /Duplicates.
+SHA-1 hashing → duplicates moved to `/Duplicates`.
 
 ### 🧪 Dry-Run Mode  
 Preview actions without modifying files.
 
 ### 🔁 Undo System  
-Reverts past actions using lazyclean-log.json.
+Reverts past actions using `lazyclean-log.json`.
 
 ### 🌲 Recursive Scan  
-Cleans inside nested folders.
+Organizes files inside subfolders.
 
 ### 🚫 Ignore System  
-Skip files/folders using .klignore.
+Skip files/folders using `.klignore`.
 
 ### 🎨 Beautiful CLI  
 - Figlet banner  
 - Chalk colors  
 - Ora spinners  
-- Clean summary tables  
+- Summary tables  
 
 ---
 
 ## 📦 Installation
-
-\\\ash
+```bash
 git clone https://github.com/vi9521/lazyclean-kiro.git
 cd lazyclean-kiro
 npm install
-\\\
+```
 
 ---
 
 ## ▶️ Usage
 
-### 🔍 Dry Run (Preview)  
-\\\ash
+### 🔍 Dry Run (Preview)
+```bash
 node src/lazyclean.js --path <folder> --dry-run
-\\\
+```
 
-### 🧹 Real Cleanup  
-\\\ash
+### 🧹 Real Cleanup
+```bash
 node src/lazyclean.js --path <folder>
-\\\
+```
 
-### 🔁 Undo Last Cleanup  
-\\\ash
+### 🔁 Undo Last Cleanup
+```bash
 node src/lazyclean.js --path <folder> --undo
-\\\
+```
 
-### 🔁 Undo Multiple Steps  
-\\\ash
+### 🔁 Undo Multiple Steps
+```bash
 node src/lazyclean.js --path <folder> --undo --undo-steps 5
-\\\
+```
 
-### 📊 Report  
-\\\ash
+### 📊 Report
+```bash
 node src/lazyclean.js --path <folder> --report
-\\\
+```
 
-### 🌲 Recursive Mode  
-\\\ash
+### 🌲 Recursive Mode
+```bash
 node src/lazyclean.js --path <folder> --recursive
-\\\
+```
 
 ---
 
 ## 🚫 Ignore Rules
 
-Create a file named \.klignore\:
-
+Create a `.klignore` file:
+```
+node_modules/
+secret.txt
+temp/
+```
 
 ---
 
 ## 📂 Project Structure
-
+```
 lazyclean-kiro/
 ├── .kiro/
-│ ├── config.json
-│ └── README-kiro.md
+│   ├── config.json
+│   └── README-kiro.md
 ├── src/
-│ ├── lazyclean.js
-│ ├── utils.js
-│ └── src_sample/
+│   ├── lazyclean.js
+│   ├── utils.js
+│   └── src_sample/
 ├── demo_report/
 ├── demo_target/
 ├── README.md
 ├── .gitignore
 ├── package.json
 └── package-lock.json
-
+```
 
 ---
 
 ## 🧠 Duplicate Detection — How It Works
 
 LazyClean:
-
-- Generates SHA-1 hash for each file  
-- Same hash → duplicate  
-- Duplicate moved to /Duplicates  
-- Action logged for undo support  
+- Computes SHA-1 hash for each file
+- Duplicate files share the same hash
+- Duplicates are moved to `/Duplicates`
+- Action is logged for undo
 
 ---
 
 ## 🔁 Undo System
 
-All operations are logged in:
-
-\\\
+LazyClean logs all operations in:
+```
 lazyclean-log.json
-\\\
+```
 
-Undo restores files safely to their original locations.
+Undo safely restores files to their original location.
+
+---
+
+## 📜 License
+
+MIT License — free to use and modify.
+
+---
+
+## 👨‍💻 Author
+
+Created by [vi9521](https://github.com/vi9521) for Kiro Week 2 Project.
