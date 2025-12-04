@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
-**📝 Read the full story:** [How LazyClean Was Built with Kiro AI on AWS Builder Center](https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days)
+**📝 Read the full story:** [How LazyClean Was Built with Kiro AI on AWS Builder Center]https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days
 
 > Built for **Kiro Week 2 Challenge: Lazy Automation** | ⏱️ Developed in 3 days with Kiro AI assistance
 
