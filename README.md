@@ -7,11 +7,29 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
-**📝 Read the full story:** [How LazyClean Was Built with Kiro AI on AWS Builder Center]https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days
+**📝 Read the full story:** [How LazyClean Was Built with Kiro AI on AWS Builder Center](https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days)
+
+**👤 Author Profile:** [Digvijay Gade on AWS Builder Center](https://builder.aws.com/profiles/digvijaygade)
 
 > Built for **Kiro Week 2 Challenge: Lazy Automation** | ⏱️ Developed in 3 days with Kiro AI assistance
 
 ---
+
+## 🤖 Built with Kiro AI
+
+LazyClean was significantly enhanced with **Kiro AI assistance**. Kiro helped implement:
+
+- ✅ Progress bars with `cli-progress` library  
+- ✅ File size analysis and formatted tables  
+- ✅ Enhanced error handling patterns  
+- ✅ Smart backup system architecture  
+
+**Time Saved:** Features that would have taken 12-15 hours were implemented in just 3-4 hours with Kiro's guidance!
+
+📖 **Read the complete development journey:** [LazyClean Blog Post](https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days)
+
+---
+
 
 ## 🚀 What is LazyClean?
 
