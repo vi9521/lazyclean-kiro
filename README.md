@@ -1,11 +1,14 @@
 # 🧹 LazyClean — Smart Folder Cleaner (Kiro Week 2 Ready)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-ESM%20Project-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/CLI-Tool-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Kiro-Week%202-ff9800?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+<img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" />
+<img src="https://img.shields.io/badge/Node-%3E%3D16.0-orange.svg" />
+<img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-blue.svg" />
+
 </p>
+
 
 **📝 Featured Article:** [LazyClean: Building a Smart File Organizer with Kiro AI - From Chaos to Order in 3 Days](https://builder.aws.com/content/36LY29Hwh6QeH8EKukVCO0p8jZR/lazyclean-building-a-smart-file-organizer-with-kiro-ai-from-chaos-to-order-in-3-days)
 
