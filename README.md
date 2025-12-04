@@ -15,8 +15,6 @@
 
 ## 🚀 What is LazyClean?
 
-## 🚀 What is LazyClean?
-
 LazyClean is a fast, production-ready Node.js CLI tool that automatically organizes messy folders.
 
 It sorts files into:
